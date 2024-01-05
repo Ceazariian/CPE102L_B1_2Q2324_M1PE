@@ -8,6 +8,9 @@ import random
 
 history = []   
 
+hedges = ['Go on.', 'I would like to hear more about that.',
+              'And what do you think about this?', 'Please continue.']
+              
 qualifiers = ['Why do you say that ', 'You seem to think that ',
                   'Did I just hear you say that ',
                   'Why do you believe that ']
@@ -15,9 +18,6 @@ qualifiers = ['Why do you say that ', 'You seem to think that ',
 replacements = {'i': 'you', 'me': 'you', 'my': 'your',
                     'we': 'you', 'us': 'you', 'am': 'are',
                     'you': 'i', 'you': 'I'}
-
-hedges = ['Go on.', 'I would like to hear more about that.',
-              'And what do you think about this?', 'Please continue.']
               
 class Doctor(object):
 

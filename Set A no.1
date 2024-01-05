@@ -21,11 +21,9 @@ def sentence():
 def nounPhrase():
     return random.choice(getWords(articles)) + " " + random.choice(nouns)
 
-
 def verbPhrase(): 
     return random.choice(verbs) + "  " + nounPhrase() + " " + \
     prepositionalPhrase()
-
 
 def prepositionalPhrase():
     return random.choice(prepositions) + " " + nounPhrase()
